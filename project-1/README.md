@@ -24,3 +24,5 @@ As of right now, I have not posted any of the problems or issues that I have had
 
 I should probably post a link to the GitHub issues tab for future reference . . .
 [click here! I'll take you where you need to go, nat!](https://github.com/Media-Ed-Online/intro-web-dev/issues)
+
+***Here is where I added an additional line of text***
