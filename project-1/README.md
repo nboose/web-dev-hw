@@ -6,7 +6,7 @@ ___
 ### WORK CYCLE SUMMARY:
 This homework cycle, I put myself through a tremendous learning curve.
 1. I increased my background-knowledge of both the internet and web, and how each one works.
-2. I created a filing system for my classwork.![Screenshot Of my Directory](./images/screenshot-1.ong)
+2. I created a filing system for my classwork.![Screenshot Of my Directory](./images/screenshot-1.png)
 2. I figured out how to successfully navigate both programs, Atom and Github (not necessarily in that order).
 3. I started my very first README.md after a short test run.
 4. And hopefully, I will be learning how to post this to GitHub to complete this portion of my assignment. *YAY!* *Actually not yay. I scared myself silly after writing the earlier parts of this document because I originally thought the most recent version of this document did not load to GitHub.*
