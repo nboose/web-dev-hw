@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic=SC" rel="stylesheet">
+    <style>
+       body {background-color: #BA55D3; font-family: 'Amatic SC', cursive;}
+       h1 {color: #FFFFFF;}
+       p {color: #D8BFD8;}
+    </style>
+  </head>
+  <body>
+    <form action="http://www.example.com/TangleSubmissions.php" method="post">
+    <h1>IT'S ALL ABOUT YOU NOW! </h1>
+      <fieldset>
+        <legend>
+          <h6>Your Details:</h6>
+        </legend>
+        <p>
+            Gender:<br/>
+        <label>
+          <input type="radio" name="rating" value="male" />
+          male
+        </label>
+        <label>
+          <input type="radio" name="rating" value="female" />
+          female
+        </label>
+        </p>
+        <label>
+          Name :
+            <input type="text" name="name" placeholder="John Smith" size="30" maxlength="100" autofocus>
+        </label><br/>
+        <label>
+         Email :
+          <input type="email" name="email" placeholder="johnsmith@email.com" size="30" maxlength="100">
+        </label><br/>
+        <label>
+           <input type="checkbox" name="subscribe" checked="checked" />
+        sign me up for more tangles
+      </label><br/>
+      <br/>
+      <legend>
+        <h6>Your Handiwork:</h6>
+      </legend>
+      <p> upload your tangle here:
+      </p>
+        <input type="file" name="user-tangle" /> <br/>
+        <input type="submit" value="Submit Information" /> <br/>
+     </fieldset>
+   </form> <br/>
+    <ul>
+    <li><a href="./instructions.html"><cite>Cubine</cite> Instructions</a></li>
+    <li><a href="../index.html">Back to Home</a></li>
+    </ul>
+   </body>
+ </html>
