@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>The Elusive Here & Now</title>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Yellowtail');
+        h1 {
+          font-family: 'Yellowtail', cursive;
+          font-size: 94px;
+          text-align: left;
+          text-indent: 40px;
+          color: #d5ddbc; }
+        p.two {
+          font-family: 'open sans', sans-serif ;
+          font-size: 14px;
+          font-weight: lighter;
+          text-align: left;
+          font-style: oblique;
+          color: #434737;
+          width: 20px,
+          border: 2px solid #434737;
+          padding: 10px;
+          -moz-box-shadow: 0 0 10px ##434737;
+          -webkit-box-shadow: 0 0 10px #434737;
+          box-shadow: 0 0 10px #434737; }
+        p.one {
+          font-family: 'open Sans', sans-serif;
+          font-size: 14px;
+          text-align: justify;
+          color: #d5ddbc; }
+        h2 {
+          font-family: 'open Sans', sans-serif;
+          font-size: 22px;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-align: left;
+          color: #434737; }
+        .text-element::first-letter {
+            font-size: 200%; }
+        nav {
+          font-family: 'open Sans', sans-serif;
+          font-size: 14px;
+          text-align: left;
+          color: #d5ddbc; }
+        body {
+          background-image: linear-gradient(to right, #8a9b68, #8a9b68 81%, #434737 19%); }
+  </style>
+</head>
+  <body>
+    <form action="http://www.example.com/TangleSubmissions.php" method="post">
+    <h1>Contact The Author</h1>
+      <fieldset>
+        <legend>
+          <h2>Your Details:</h2>
+        </legend>
+        <p class="one"><label>
+          Name :
+            <input type="text" name="name" placeholder="John Smith" size="30" maxlength="100" autofocus>
+        </label><br/></p>
+        <p class="one"><label>
+         Email :
+          <input type="email" name="email" placeholder="johnsmith@email.com" size="30" maxlength="100">
+        </label><br/></p>
+        <p class="one"><label>
+           <input type="checkbox" name="subscribe" checked="checked" />
+        Send me more information about your book!
+      </label>
+      <br/></p>
+    </fieldset><br/>
+    <fieldset>
+      <legend>
+        <h2>Comments:</h2>
+      </legend>
+        <p class="one"><label for="comments"></label>
+          <textarea rows="4" cols="40" id="comments" >
+        </textarea></p>
+        <p class="one"><input type="submit" value="Submit Information" /> <br/></p>
+     </fieldset>
+   </form> <br/>
+      <ul id="nav-list">
+        <li><a href="./scripts/index.html">Home</a></li>
+        <li><a href="./pages/sample.html">Sample</a></li>
+        <li><a href="./pages/contact.html">About</a></li>
+    </ul>
+   </body>
+ </html>
