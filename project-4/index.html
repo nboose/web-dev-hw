@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>My First Responsive Website</title>
+      <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Jacques+Francois|Quicksand:300');
+          h1 {
+            font-family: 'Quicksand', sans-serif;
+            text-align: center;
+            font-size: 20px;
+            background-color: #3f3931;
+            color: #e7baa0; }
+          h2 {
+            font-family: 'Quicksand', sans-serif;
+            text-align: left;
+            font-size: 75%;
+            margin: 5%;
+            text-decoration: underline;
+            color: #e7baa0; }
+          p.one {
+            font-family: 'Jacques Francois', serif;
+            text-align: left;
+            font-size: 55%;
+            margin: 5%;
+            color: #e5dace; }
+          .container {
+            display: flex;
+            flex-wrap: wrap; }
+          .box {
+            width: 100%;
+            height: 300px; }
+          .moss_tide {
+            background-color: #6d7973; }
+          .black_sand {
+            background-color: #3f3931; }
+          @media (min-width: 450px) {
+            .moss_tide {
+              width: 25%; }
+            .black_sand {
+              width: 75%; } }
+          @media (min-width: 550px) {
+            .moss_tide {
+              width: 25%; }
+            .black_sand {
+              width: 50%; } }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="box moss_tide">
+            <h1>WIREFRAMES 101</h1>
+            <h2>what is it?</h2>
+            <p class="one">When a designer begins brainstorming a website, most likely he will begin by figuring out what will appear on each page. This can be visualized through the creation of a wireframe. Basically a wireframe will give the designer a roadmap of where each element (i.e. logo, navigation, images, headings, blocks of text . . .) of the page will live.</p>
+            <p class="one">Everything included in the wireframe is meant to be very basic and uncolorful. The main point is to focus on layout and content placement, as well as solving navigation and functionality problems in a format that is easy to adjust.</p><br/>
+        </div>
+        <div class="box black_sand">
+            <center><img src="./images/first_wireframe.png" width="90%" height="100%"></center>
+        </div>
+        <div class="box moss_tide">
+          <h2>why is it important?</h2>
+          <p class="one">By creating a wireframe, the designer of a website can make sure that he includes everything he wants to include in his new web page.</p>
+          <p class="one">Also, the production of a wireframe also makes the designer think about how his website is going to display on narrow widths (since 50% of online users are via their mobile devices). Planning things out helps the designer prioritize site elements that should draw the eye of the webiste user whether its on a narrow screen or a wider screen (desktop or tablet).</p>
+          <h2>try it yourself!</h2>
+          <p class="one"><a href="http://gomockingbird.com">go mocking bird</a><br/>
+          <a href="http://lovelycharts.com">lovely charts</a><br/>
+          <a href="http://www.sketchapp.com/">sketch</a></p>
+      </div>
+    </div>
+  </body>
+</html>
