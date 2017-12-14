@@ -94,34 +94,64 @@
               height: 350px;
               top: 10px;
               right: 10px; }
-           .element-1 {
-             font-size: 1.5em;
-             font-family: 'open Sans', sans-serif; }
-           .element-1 a {
-             color: #d5ddbc;
-             text-decoration: none; }
-           .element-1 a:hover {
-             color: #434737;
-             font-style: none; }
-           .text-element::first-line {
-                 font-size: 200%; }
-    </style>
-    </head>
-      <body>
-        <div id="header">
-          <div id="reldiv1">
-            <br/><span class="bold"><h1>The Elusive Here & Now</h1>
-            <h2>Inspiration Poetry for the Soul</h2>
-            </span></div>
-          <div id="nav">
-            <ul>
-              <li><a href="../index1.html">Home</a></li>
-              <li><a href="../pages/sample.html">Sample Snippet</a></li>
-              <li><a href="../pages/about.html">About the Author</a></li>
-              <li><a href="https://www.amazon.com/Elusive-Here-Now-Dan-Coppersmith/dp/0971934096/ref=sr_1_1?ie=UTF8&qid=1512347215&sr=8-1&keywords=the+elusive+here+and+now">Buy the Book</a></li>
-              <li><a href="../pages/contact.html">Contact Dan Coppersmith</a></li>
-            </ul>
-            </div>
+            .menu-item {
+              display: inline-block;
+              margin: 0 0;
+              min-width: 8em;
+              text-align: center;
+              background-color: #8a9b68;
+              padding: 0.5em 0; }
+            .menu-item a {
+              color: #d5ddbc;
+              text-decoration: none; }
+            .dropdown {
+              display: inline-block; }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              border: 1px solid #8a9b68;
+              margin: 0;
+              margin-top: 0.5em;
+              color: #d5ddbc;
+              background-color: #8a9b68;
+              z-index: 1; }
+            .dropdown-content a {
+              color: #d5ddbc; }
+            .dropdown:hover .dropdown-content {
+              display: block; }
+            .dropdown-item {
+              display: block;
+              text-align: left;
+              margin: 0;
+              padding: 0.5em;
+              min-width: 7em; }
+            .dropdown-item:hover, .dropdown-item:hover a {
+              color: #4790DA; }
+
+      </style>
+      </head>
+        <body>
+          <div id="header">
+            <div id="reldiv1">
+              <br/><span class="bold"><h1>The Elusive Here & Now</h1>
+              <h2>Inspiration Poetry for the Soul</h2>
+            </span></div></div>
+              <div id="nav">
+        <div class="menu-item">
+           <a href="../index2.html">Home</a></div>
+        <div class="menu-item dropdown">
+           <a href="#">Explore: The Elusive Here & Now</a>
+           <div class="dropdown-content">
+              <div class="dropdown-item">
+                 <a href="./pages/sample1.html">Sample Snippet</a></div>
+              <div class="dropdown-item">
+                 <a href="./pages/about1.html">About the Author</a></div>
+              <div class="dropdown-item">
+                 <a href="https://www.amazon.com/Elusive-Here-Now-Dan-Coppersmith/dp/0971934096/ref=sr_1_1?ie=UTF8&qid=1512347215&sr=8-1&keywords=the+elusive+here+and+now">Buy the Book</a></div>
+              <div class="dropdown-item">
+                 <a href="./pages/contact1.html">Contact Dan Coppersmith</a></div>
+              </div>
+           </div>
          </div>
          <div id="content">
            <div id="feature">
